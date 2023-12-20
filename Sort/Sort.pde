@@ -12,7 +12,7 @@ void setup() {
   background(0);
   textSize(25);
 
-  dataSize = 20;
+  dataSize = 40;
   maxValue = max(300, dataSize);
   sorty = new SortArray(BUBBLE, dataSize, maxValue);
 }//setup
